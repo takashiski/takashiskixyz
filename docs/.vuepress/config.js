@@ -1,9 +1,37 @@
 module.exports={
+  title:"天高工房",
+  description:"キーボードとかキーキャップ作ってます",
+  locale:{
+    "/":{
+      lang:"ja"
+    }
+  },
   themeConfig:{
     nav:[
       {text:"Home",link:"/"},
-      {text:"Guide",link:"/guide/"}
+      {text:"Guide",link:"/guide/"},
+      {text:"JP60Split",link:"/jp60split/"},
+      {text:"hecomi",link:"/hecomi/"}
     ],
-    displayAllHeaders:true
+    sidebar:{
+      //"guide":"auto"
+
+      "/hecomi/":[
+        "",
+        "/hecomi/001",
+        "/common/diode/",
+        "/common/socket/",
+      ],
+      "/jp60split/":[
+        "",
+        "/common/diode/"
+      ],
+      "/guide/":[
+        ""
+      ],
+      "/":"auto"
+    },
+    displayAllHeaders:true,
+    lastUpdated:"Last Updated"
   }
 }
