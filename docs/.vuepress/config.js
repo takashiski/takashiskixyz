@@ -1,6 +1,6 @@
 module.exports={
-  title:"天高工房",
-  description:"キーボードとかキーキャップ作ってます",
+  title:"takashiski",
+  description:"takashiskiまとめ",
   locale:{
     "/":{
       lang:"ja"
@@ -9,26 +9,8 @@ module.exports={
   themeConfig:{
     nav:[
       {text:"Home",link:"/"},
-      {text:"Guide",link:"/guide/"},
-      {text:"JP60Split",link:"/jp60split/"},
-      {text:"hecomi",link:"/hecomi/"}
     ],
     sidebar:{
-      //"guide":"auto"
-
-      "/hecomi/":[
-        "",
-        "/hecomi/001",
-        "/common/diode/",
-        "/common/socket/",
-      ],
-      "/jp60split/":[
-        "",
-        "/common/diode/"
-      ],
-      "/guide/":[
-        ""
-      ],
       "/":"auto"
     },
     displayAllHeaders:true,
