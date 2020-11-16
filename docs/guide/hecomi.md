@@ -1,1 +1,0 @@
-# hecomi.md
